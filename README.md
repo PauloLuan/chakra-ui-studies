@@ -1,6 +1,6 @@
 ## 💡 Introduction
 
-This is my [Next.js](https://nextjs.org/) boilerplate
+This repository is a collection os studies related to Chakra UI, you an checkout a deployed version of [those studies here](https://pauloluan.github.io/chakra-ui-studies/)
 
 <span id="top"></span>
 
@@ -19,13 +19,7 @@ This is my [Next.js](https://nextjs.org/) boilerplate
 
 ## Getting Started
 
-To create a project from this boilerplate run:
-
-```bash
-yarn create next-app chakra-studies --example https://github.com/PauloLuan/next-js-boilerplate
-```
-
-Then, run the development server:
+running the development server:
 
 ```bash
 yarn dev
@@ -52,6 +46,7 @@ Open [http://localhost:9999](http://localhost:9999) to check your stories.
 - `typecheck`: check typescript types
 - `generate`: creates a component scaffold (you can also choose between styled component and chackra component)
 - `storybook`: runs storybook on `localhost:6006`
+- `deploy`: deploys the storybook build folder to gh-pages
 - `build-storybook`: create the build version of storybook
 
 ## What is inside?
@@ -67,8 +62,6 @@ This project uses:
 - [Prettier](https://prettier.io/)
 - [Eslint](https://eslint.org/)
 
-This project was inspired and extended from [nextjs-with-chakra-ui-boilerplate](https://github.com/Lukazovic/nextjs-with-chakra-ui-boilerplate)
-
 ## :pencil: Author
 
 Paulo Luan
@@ -78,3 +71,17 @@ Paulo Luan
     <td align="center"><a href="https://github.com/pauloluan"><img src="https://github.com/pauloluan.png" width="100px;" alt=""/><br /><sub><b>Paulo Luan</b></sub></a><br /></td>
   <tr>
 </table>
+
+Where you can find me:
+
+<p align="center">
+  <a href="http://bit.ly/pauloluan-insta">
+    <img src="https://github.com/pauloluan/assets/blob/master/insta.png" width="50"  alt="Follow me on Instagram" />
+  </a>
+  <a href="https://bit.ly/pauloluan/">
+    <img src="https://github.com/pauloluan/assets/blob/master/linkedin.png?raw=true" width="50" alt="Follow me on Linkedin" />
+  </a>
+  <a href="https://github.com/pauloluan">
+    <img src="https://github.com/pauloluan/assets/blob/master/github.png?raw=true" width="50"  alt="Follow me on Github" />
+  </a>
+</p>
