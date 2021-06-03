@@ -30,10 +30,7 @@ jobs:
       - name: Test
         run: yarn test
 
-  publish-gh-pages:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - run: yarn deploy
+      - name: Deploy
+        run: yarn deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
